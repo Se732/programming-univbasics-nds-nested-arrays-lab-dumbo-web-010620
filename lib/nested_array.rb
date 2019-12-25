@@ -47,13 +47,13 @@ def matrix_update(matrix, row, column, new_value)
   matrix.each do |arr|
     puts matrix
    while row do
-     matrix.length
+     matrix.index
   elsif column do
     matrix.length.index
   elsif new_value do
     matrix.push
   end
-  
+
   # Given any matrix (array of arrays), a row index and a column index,
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
