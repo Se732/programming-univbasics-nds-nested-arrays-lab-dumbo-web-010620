@@ -26,7 +26,7 @@ end
 
 def sorted_matrix
   produce_storage = [["Eggplant","Grapefruit","Oranges","Pineapple","Watermelon"],
-  ["Asparagus","Avocadoes","Grapes","Potatoes","Strawberries"]]# Using Array literal syntax only, build another nested array that 
+  ["Asparagus","Avocadoes","Grapes","Potatoes","Strawberries"]]# Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
 end
@@ -34,27 +34,27 @@ end
 def matrix_lookup(matrix, row, column)
     matrix.each do |arr|
       puts matrix
-     while row do 
+     while row do
        matrix.length
-    elsif column do 
+    elsif column do
       matrix.length.index
-    end  
- # Given any matrix (array of arrays), a row index and a column index, 
+    end
+ # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
 
 def matrix_update(matrix, row, column, new_value)
   matrix.each do |arr|
     puts matrix
-   while row do 
+   while row do
      matrix.length
-  elsif column do 
+  elsif column do
     matrix.length.index
   elsif new_value do
     matrix.push
   end
   
-  # Given any matrix (array of arrays), a row index and a column index, 
+  # Given any matrix (array of arrays), a row index and a column index,
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
